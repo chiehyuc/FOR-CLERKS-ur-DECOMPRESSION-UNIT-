@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Clerk Decompression Unit</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="pagerFloat" class="pager-float" hidden><b>BEEP</b><span id="pagerMsg">CALL EXT. 4821</span><button id="ackFloat">ACK</button></div>
+<main class="shell">
+<header class="hero">
+  <div class="badge">UNOFFICIAL STAFF FACILITY · NO CME CREDIT</div>
+  <h1>CLERK<br>DECOMPRESSION UNIT</h1>
+  <p>For minor academic injuries, post-rounds psychic debris, and the persistent uncertainty of where to stand.</p>
+  <button id="enterBtn" class="black">ENTER FACILITY</button>
+</header>
+
+<section id="map" class="map hidden">
+ <div class="map-head"><b>FACILITY DIRECTORY</b><span>status: clinically present</span></div>
+ <div class="rooms">
+  <button data-room="waste">☣<b>BIOHAZARD DISPOSAL</b><small>dispose of today's nonsense</small></button>
+  <button data-room="stand">⌖<b>SIMULATION ROOM</b><small>where should I stand™</small></button>
+  <button data-room="pager">▣<b>CALL ROOM</b><small>the pager</small></button>
+  <button data-room="spot">?<b>EDUCATION OFFICE</b><small>spot me™</small></button>
+  <button data-room="note">▤<b>DOCUMENTATION</b><small>make it sound medical</small></button>
+  <button data-room="elevator">⇅<b>ELEVATOR</b><small>unavoidable social exposure</small></button>
+  <button data-room="button">●<b>EMERGENCY BUTTON</b><small>do not press during rounds</small></button>
+  <button data-room="exit">↗<b>EXIT</b><small>go be a person</small></button>
+ </div>
+ <div class="stamp">CLERK ACCESS<br>PROVISIONALLY GRANTED</div>
+</section>
+
+<section id="game" class="game hidden">
+ <button id="back" class="back">← facility directory</button>
+ <div id="roomContent"></div>
+</section>
+</main>
+<div id="after" class="after hidden"><div><span>☾</span><h2>shift over.</h2><p>You don't have to be a clerk for the next few hours.</p><strong>Go be a person.</strong><button id="return">return tomorrow-ish</button></div></div>
+<script src="app.js"></script>
+</body></html>
