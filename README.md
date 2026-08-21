@@ -12,10 +12,5 @@ Rooms:
 - Emergency Button: explicitly do not press.
 - Exit: clock out and go be a person.
 
-## Deploy
-Put `index.html`, `style.css`, and `app.js` at the root of a GitHub repository.
-Settings → Pages → Deploy from a branch → main → /(root).
-
-No build step required.
-
+## REMINDER
 This is a humor project, not medical advice or a mental-health intervention.
